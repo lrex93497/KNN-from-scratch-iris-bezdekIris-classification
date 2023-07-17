@@ -55,7 +55,7 @@ def get_K_neighbors(test_datapoint, list_train_data, K):
         list_distance.append((list_train_data[i], distance))
 
     list_distance.sort(key=operator.itemgetter(1))       #sort all distance in the list
-    print(list_distance)
+    #print(list_distance)
     
     list_K_neighbors = []
     for i in range(K):
